@@ -1,9 +1,12 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
+import Room from "./Components/Room";
 
 const App = () => {
     return (
         <div>
-            <h1 className="text-3xl">Shuza</h1>
+            <Navbar />
+            <Room />
         </div>
     )
 }
